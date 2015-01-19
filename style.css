@@ -1,0 +1,24 @@
+tbody tr td:nth-of-type(1) {color: blue; }
+tbody tr td:nth-of-type(3) {color: red; }
+tbody tr th {font-style: italic; font-weight: normal}
+tbody tr {background-color: LightGreen;}
+tbody tr:nth-of-type(2) {background-color: LightBlue;}
+tbody tr:nth-of-type(4) {background-color: LightBlue;}
+dt:hover + dd {background-color: purple;}
+section:nth-last-of-type(1) div {top: 20px;}
+section:nth-last-of-type(1) div img{float: left;}
+
+div { position: relative;}
+
+.outer-content {
+	background-color:pink;
+	width:75%;
+	top: 20px;
+	height:100px;
+}
+.inner-content {
+	background-color:blue;
+    width: 75%; 
+    height: 60%;
+    margin: 0 auto;
+}
